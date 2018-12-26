@@ -1,0 +1,48 @@
+<html>
+
+<head>
+<!-- <link rel="stylesheet" href="Calculator.css"> -->
+</head>
+<body>
+<h1 align="center">Calculator</h1>
+<div class="box">
+	<div class="display">
+		<input id="text" type="text" readonly size="18" >
+	</div>
+	<div class="keys">
+		<p>
+		   <input type="button" class="button gray" value="AC" onclick='clearScreen("")'>
+		   <input type="button" class="button black" value="Հ---" onclick='remove()'>
+		   <input type="button" class="button pink" value="/" onclick='thisValue("/")'>
+		</p>
+
+		<p>
+			<input type="button" class="button black" value="7" onclick='thisValue("7")'>
+			<input type="button" class="button black" value="8" onclick='thisValue("8")'>
+			<input type="button" class="button black" value="9" onclick='thisValue("9")'>
+			<input type="button" class="button pink" value="*" onclick='thisValue("*")'>
+		</p>
+
+		<p>
+			<input type="button" class="button black" value="4" onclick='thisValue("4")'>
+			<input type="button" class="button black" value="5" onclick='thisValue("5")'>
+			<input type="button" class="button black" value="6" onclick='thisValue("6")'>
+			<input type="button" class="button pink" value="-" onclick='thisValue("-")'>
+		</p>
+
+		<p><input type="button" class="button black" value="1" onclick='thisValue("1")'>
+			<input type="button" class="button black" value="2" onclick='thisValue("2")'>
+			<input type="button" class="button black" value="3" onclick='thisValue("3")'>
+			<input type="button" class="button pink" value="+" onclick='thisValue("+")'>
+		</p>
+
+		<p><input type="button" class="button black" value="0" onclick='thisValue("0")'>
+			<input type="button" class="button black" value="." onclick='thisValue(".")'>
+			<input type="button" class="button orange" value="=" onclick='doSum()'>
+		</p>
+
+	</div>
+</div>
+<script type="text/javascript" src="Calculator.js"></script>	
+</body>
+</html>

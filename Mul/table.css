@@ -1,0 +1,30 @@
+#text{
+  height: 70px;
+  font-size: 15px;
+  text-align: left;
+  border-width: 0px;
+  border-color: black;
+  border-bottom-width: 4px;
+  outline: none;
+
+}
+#text:hover{
+ border-color: black; 
+}
+#button{
+  outline: none;
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  text-align: center;
+  border-width: 1px;
+  margin: 6px;
+  border-radius: 8px;
+  border-bottom-width: 4px;
+}
+#button:hover{
+  cursor: pointer;
+}
+#printHere{
+  color: black;
+}
